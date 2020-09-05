@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/solar/bootstrap.min.css">
+</head>
+<body>
+    <h3 style="color:aliceblue;widows: 300px;margin-left:200px;margin-top:30px;">Vamos a conocernos...</h3>
+    <h6 style="margin-left:200px;margin-top:30px; color:white">Introduce tus datos y los de 5 amigos mas</h6>
+    <div id ="contenedor"class="col-md-4"style="margin-top:20px; margin-left:40px;background:#60a3bc; float:left;">
+        <form class="card-body"id="formulario">
+            <div class="form-group">
+                <input id="nombre" type="text" placeholder="Nombre" class="form-control">
+            </div>
+            <div class="form-group">
+                <input id="apellidos" type="text" placeholder="Apellidos" class="form-control">
+            </div>
+            <div class="form-group">
+                <input id="nacimiento" type="number" min="1920" max="2002" placeholder="Año De nacimiento" value="1980" class="form-control">
+            </div>
+            <div class="form-group">
+                <input id="direccion" type="text" placeholder="Direccion" class="form-control">
+            </div>
+            <div class="form-group">
+                <input id="numero" type="number" value="70" placeholder="Numero De Portal" class="form-control">
+            </div>
+            <div class="form-group">
+                <input id="numeropi" type="number"  placeholder="Numero De Piso" class="form-control">
+            </div>
+            <div class="form-group">
+                <input id="localidad" type="text" placeholder="Localidad" class="form-control">
+            </div>
+            <div class="form-group">
+                <input id="dni" type="text" placeholder="D.N.I" class="form-control">
+            </div>
+            <input id="save"type="submit" value="Save" class="btn btn-primary btn-block">
+        </form>
+       
+    </div>
+    <div id="info-list" class="col-md-7" style="float:right;">
+    </div>   
+        <script src="app.js"></script>
+</body>
+</html>
